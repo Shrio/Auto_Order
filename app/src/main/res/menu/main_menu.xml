@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/homeBar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/profileBar"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Profile" />
+
+
+    <item
+        android:id="@+id/prevOrderBar"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="My orders" />
+
+
+    <item
+        android:id="@+id/logoutBar"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/goCart"
+        app:showAsAction="always"
+        android:icon="@drawable/go_cart"
+        android:title="Cart"/>
+
+</menu>
