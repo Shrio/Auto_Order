@@ -3,8 +3,8 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         android:src="@drawable/desert_icon"
         android:id="@+id/catIcon"
         android:layout_margin="6dp"
@@ -14,14 +14,14 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Deserts"
         android:id="@+id/categoryName"
         android:paddingTop="7dp"
         android:paddingLeft="7dp"
         android:textColor="#000"
         android:textSize="20sp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="4dp"
         android:layout_alignTop="@+id/catIcon"
         android:layout_toRightOf="@+id/catIcon"
         android:layout_toEndOf="@+id/catIcon" />
